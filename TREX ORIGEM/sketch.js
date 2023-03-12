@@ -205,7 +205,7 @@ function spawnObstacles(){
 function spawnClouds() {
   //escreva o código aqui para gerar as nuvens
   if (frameCount % 60 === 0) {
-    var cloud = createSprite(widht + 20, height);
+    var cloud = createSprite(width + 20, height);
     cloud.y = Math.round(random(100,200));
     cloud.addImage(cloudImage);
     cloud.scale = 0.5;
